@@ -1,49 +1,133 @@
-# ARVION-OS
+<div align="center">
 
-ARVION-OS is a futuristic, desktop-style web experience built with React, TypeScript, Vite, and Tailwind CSS.
+```text
+ █████╗ ██████╗ ██╗   ██╗██╗ ██████╗ ███╗   ██╗      ██████╗ ███████╗
+██╔══██╗██╔══██╗██║   ██║██║██╔═══██╗████╗  ██║     ██╔═══██╗██╔════╝
+███████║██████╔╝██║   ██║██║██║   ██║██╔██╗ ██║     ██║   ██║███████╗
+██╔══██║██╔══██╗╚██╗ ██╔╝██║██║   ██║██║╚██╗██║     ██║   ██║╚════██║
+██║  ██║██║  ██║ ╚████╔╝ ██║╚██████╔╝██║ ╚████║     ╚██████╔╝███████║
+╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝      ╚═════╝ ╚══════╝
+```
 
-## Live Repository
+**A futuristic browser-based desktop OS experience.**
 
-[Y7X-bit/ARVION-OS](https://github.com/Y7X-bit/ARVION-OS)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-ARVION--OS-22C55E?style=for-the-badge)](https://github.com/Y7X-bit/ARVION-OS)
+
+</div>
+
+---
+
+## Overview
+
+**ARVION-OS** is a browser-native desktop environment, built as an interactive OS simulation rather than a traditional static website.  
+It includes windowed UI interactions, animated transitions, and immersive visual effects in a sci-fi design style.
+
+---
+
+## Features
+
+- Windowed desktop-style interface
+- Animated UI with Framer Motion and GSAP
+- 3D visual capabilities with Three.js
+- Component-driven React + TypeScript architecture
+- Fast Vite dev/build workflow
+- Responsive behavior across screen sizes
+
+---
 
 ## Preview
 
-- Video preview: [Arvion OS.mp4](./Arvion%20OS.mp4)
-- Click the preview window below to watch:
+<div align="center">
+  <a href="./Arvion%20OS.mp4">
+    <img src="./assets/preview-card.svg" alt="ARVION-OS Preview" width="100%" />
+  </a>
+</div>
 
-[![ARVION-OS Video Preview](./assets/preview-card.svg)](./Arvion%20OS.mp4)
+Direct video link: [Arvion OS.mp4](./Arvion%20OS.mp4)  
+Click the preview image to open the full demo video.
+
+---
 
 ## Tech Stack
 
-- React 18
-- TypeScript
-- Vite
-- Tailwind CSS
-- Framer Motion + GSAP
-- Three.js + Cannon-es + Matter.js
-- Zustand
+| Category | Technology |
+|---|---|
+| Framework | React 18 + TypeScript |
+| Build Tool | Vite 7 |
+| Styling | Tailwind CSS 3 |
+| Animation | Framer Motion, GSAP |
+| 3D Graphics | Three.js |
+| State | Zustand |
+| Deployment | Vercel |
 
-## Local Development
+---
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) `v18+`
+- [npm](https://www.npmjs.com/) `v9+`
+
+### Installation
 
 ```bash
+git clone https://github.com/Y7X-bit/ARVION-OS.git
+cd ARVION-OS
 npm install
 npm run dev
 ```
 
-## Production Build
+App URL: `http://localhost:5173`
+
+---
+
+## Building for Production
 
 ```bash
 npm run build
 npm run preview
 ```
 
-## Deploy On Vercel
+Output directory: `dist/`
 
-1. Import this repo in Vercel: [vercel.com/new](https://vercel.com/new)
-2. Framework preset: `Vite`
-3. Build command: `npm run build`
-4. Output directory: `dist`
-5. Deploy
+---
+
+## Deployment (Vercel)
+
+1. Open [vercel.com/new](https://vercel.com/new)
+2. Import `Y7X-bit/ARVION-OS`
+3. Framework preset: `Vite`
+4. Build command: `npm run build`
+5. Output directory: `dist`
+6. Deploy
+
+---
+
+## Project Structure
+
+```text
+ARVION-OS/
+├── assets/
+│   ├── footer.png
+│   └── preview-card.svg
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
+├── Arvion OS.mp4
+├── index.html
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── vite.config.ts
+```
 
 ---
 
