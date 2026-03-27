@@ -92,17 +92,6 @@ Output directory: `dist/`
 
 ---
 
-## Deployment (Vercel)
-
-1. Open [vercel.com/new](https://vercel.com/new)
-2. Import `Y7X-bit/ARVION-OS`
-3. Framework preset: `Vite`
-4. Build command: `npm run build`
-5. Output directory: `dist`
-6. Deploy
-
----
-
 ## Project Structure
 
 ```text
