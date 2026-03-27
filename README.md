@@ -1,14 +1,15 @@
 <div align="center">
 
-![ARVION-OS Banner](https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,50:0ea5e9,100:22d3ee&text=ARVION-OS&fontColor=ffffff&fontSize=62&fontAlignY=38&desc=Futuristic%20Browser%20Desktop%20Experience&descAlignY=60&animation=fadeIn)
+![ARVION-OS Banner](https://capsule-render.vercel.app/api?type=waving&height=230&color=0:020617,35:0f172a,70:0ea5e9,100:22d3ee&text=ARVION-OS&fontColor=ffffff&fontSize=64&fontAlignY=38&desc=Futuristic%20Browser%20Desktop%20Experience&descAlignY=61&animation=twinkling)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=24&duration=2600&pause=900&color=22D3EE&center=true&vCenter=true&width=900&lines=Desktop-like+UI+inside+your+browser;Interactive+windows+%7C+motion+%7C+3D+atmosphere;Built+for+impactful+frontend+experiences)](https://github.com/Y7X-bit/ARVION-OS)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=23&duration=2500&pause=800&color=38BDF8&center=true&vCenter=true&width=920&lines=Desktop-like+UI+inside+your+browser;Interactive+windows+%7C+motion+%7C+3D+atmosphere;Built+for+impactful+frontend+experiences)](https://github.com/Y7X-bit/ARVION-OS)
 
-[![Live](https://img.shields.io/badge/Live-arvion--os.vercel.app-22c55e?style=for-the-badge&logo=vercel&logoColor=white)](https://arvion-os.vercel.app)
-[![Repo](https://img.shields.io/badge/GitHub-ARVION--OS-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Y7X-bit/ARVION-OS)
+[![Live](https://img.shields.io/badge/Live-arvion--os.vercel.app-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white)](https://arvion-os.vercel.app)
+[![Repo](https://img.shields.io/badge/GitHub-ARVION--OS-0b1220?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Y7X-bit/ARVION-OS)
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=0b0f19)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind](https://img.shields.io/badge/Tailwind-3-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=06283D)](https://tailwindcss.com/)
 
 </div>
 
@@ -19,7 +20,7 @@
 ARVION-OS is a high-immersion web interface that simulates a futuristic operating system in the browser.
 It focuses on cinematic UI motion, layered interactions, and a desktop-like workflow instead of a traditional static page.
 
-## Why It Stands Out
+## Highlights
 
 - Desktop-inspired interaction model with app-style windows
 - Motion-first interface using Framer Motion and GSAP
