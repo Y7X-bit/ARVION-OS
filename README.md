@@ -9,8 +9,9 @@ ARVION-OS is a futuristic, desktop-style web experience built with React, TypeSc
 ## Preview
 
 - Video preview: [Arvion OS.mp4](./Arvion%20OS.mp4)
+- Click the preview window below to watch:
 
-<video src="./Arvion%20OS.mp4" controls width="100%"></video>
+[![ARVION-OS Video Preview](./assets/preview-card.svg)](./Arvion%20OS.mp4)
 
 ## Tech Stack
 
