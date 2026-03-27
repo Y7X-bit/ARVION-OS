@@ -46,6 +46,16 @@ It focuses on cinematic UI motion, layered interactions, and a desktop-like work
 | State | Zustand |
 | Hosting | Vercel |
 
+## Typography
+
+ARVION-OS uses local custom fonts from the repository:
+
+- `font/termina-test/TerminaTest-Regular.otf`
+- `font/termina-test/TerminaTest-Medium.otf`
+- `font/termina-test/TerminaTest-Bold.otf`
+
+They are configured in `src/index.css` as `font-family: "TerminaTest"`.
+
 ## Local Setup
 
 ```bash
@@ -70,17 +80,19 @@ Output folder: `dist/`
 
 ```text
 ARVION-OS/
-├── assets/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── App.tsx
-│   ├── index.css
-│   └── main.tsx
-├── Arvion OS.mp4
-├── index.html
-├── package.json
-├── postcss.config.js
-├── tailwind.config.js
-└── vite.config.ts
++-- assets/
++-- font/
+�   +-- termina-test/
++-- src/
+�   +-- components/
+�   +-- pages/
+�   +-- App.tsx
+�   +-- index.css
+�   +-- main.tsx
++-- Arvion OS.mp4
++-- index.html
++-- package.json
++-- postcss.config.js
++-- tailwind.config.js
++-- vite.config.ts
 ```
