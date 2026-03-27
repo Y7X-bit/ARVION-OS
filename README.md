@@ -1,36 +1,51 @@
-# ARVION-OS
+<div align="center">
 
-ARVION-OS is an interactive desktop-style experience that runs in the browser.  
-It is built as a UI simulation of a futuristic operating system, with windowed interactions, motion-heavy transitions, and immersive visuals.
+![ARVION-OS Banner](https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,50:0ea5e9,100:22d3ee&text=ARVION-OS&fontColor=ffffff&fontSize=62&fontAlignY=38&desc=Futuristic%20Browser%20Desktop%20Experience&descAlignY=60&animation=fadeIn)
 
-[Live Site](https://arvion-os.vercel.app)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=24&duration=2600&pause=900&color=22D3EE&center=true&vCenter=true&width=900&lines=Desktop-like+UI+inside+your+browser;Interactive+windows+%7C+motion+%7C+3D+atmosphere;Built+for+impactful+frontend+experiences)](https://github.com/Y7X-bit/ARVION-OS)
 
-## Preview
+[![Live](https://img.shields.io/badge/Live-arvion--os.vercel.app-22c55e?style=for-the-badge&logo=vercel&logoColor=white)](https://arvion-os.vercel.app)
+[![Repo](https://img.shields.io/badge/GitHub-ARVION--OS-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Y7X-bit/ARVION-OS)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=0b0f19)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+
+</div>
+
+---
+
+## Overview
+
+ARVION-OS is a high-immersion web interface that simulates a futuristic operating system in the browser.
+It focuses on cinematic UI motion, layered interactions, and a desktop-like workflow instead of a traditional static page.
+
+## Why It Stands Out
+
+- Desktop-inspired interaction model with app-style windows
+- Motion-first interface using Framer Motion and GSAP
+- 3D depth and atmosphere powered by Three.js
+- Clean, scalable React + TypeScript architecture
+- Performance-friendly Vite setup for fast iteration
+
+## Product Preview
 
 <div align="center">
   <video src="./Arvion%20OS.mp4" controls autoplay muted loop playsinline preload="metadata" width="100%"></video>
 </div>
 
-## Features
-
-- Desktop-like windowed interface
-- Motion and interaction effects with Framer Motion and GSAP
-- 3D visuals powered by Three.js
-- React + TypeScript component architecture
-- Responsive layout for different screen sizes
-
 ## Tech Stack
 
-- React 18
-- TypeScript 5
-- Vite 7
-- Tailwind CSS 3
-- Framer Motion
-- GSAP
-- Three.js
-- Zustand
+| Layer | Technology |
+|---|---|
+| Frontend | React 18, TypeScript |
+| Build Tool | Vite 7 |
+| Styling | Tailwind CSS 3 |
+| Motion | Framer Motion, GSAP |
+| 3D | Three.js |
+| State | Zustand |
+| Hosting | Vercel |
 
-## Run Locally
+## Local Setup
 
 ```bash
 git clone https://github.com/Y7X-bit/ARVION-OS.git
@@ -39,16 +54,16 @@ npm install
 npm run dev
 ```
 
-Default local URL: `http://localhost:5173`
+Runs at `http://localhost:5173`.
 
-## Build
+## Production Build
 
 ```bash
 npm run build
 npm run preview
 ```
 
-Build output: `dist/`
+Output folder: `dist/`
 
 ## Project Structure
 
