@@ -42,13 +42,8 @@ It includes windowed UI interactions, animated transitions, and immersive visual
 ## Preview
 
 <div align="center">
-  <a href="./Arvion%20OS.mp4">
-    <img src="./assets/preview-card.svg" alt="ARVION-OS Preview" width="100%" />
-  </a>
+  <video src="./Arvion%20OS.mp4" controls autoplay muted loop playsinline preload="metadata" width="100%"></video>
 </div>
-
-Direct video link: [Arvion OS.mp4](./Arvion%20OS.mp4)  
-Click the preview image to open the full demo video.
 
 ---
 
